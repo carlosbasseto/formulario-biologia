@@ -9,14 +9,25 @@ h1{
 }
 
 .container{
-    background-color: #b8b5b5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 30%;
     margin-left: 35%;
     margin-top: 15px;
+    border-radius: 18px;
 }
 
-body{
-    background-color: black;
+label{
+    font-size: 19px;
+    margin: 25px;
+
+}
+
+.opcao{
+    width: 25px;
+}
+
+.texto-option{
+    font-size: 19px;
 }
 
 @media (max-width:600px){
