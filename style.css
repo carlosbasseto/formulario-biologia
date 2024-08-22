@@ -10,7 +10,7 @@ h1{
 
 .container{
     background-color: #b8b5b5;
-
+    width: 30%;
     margin-left: 35%;
     margin-top: 15px;
 }
@@ -22,5 +22,6 @@ body{
 @media (max-width:600px){
     .container{
        margin: 0;
+       width: 100%;
     }
 }
