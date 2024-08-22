@@ -19,8 +19,3 @@ body{
     background-color: black;
 }
 
-@media (max-width:600px){
-    .container{
-        width: 100%;
-    }
-}
