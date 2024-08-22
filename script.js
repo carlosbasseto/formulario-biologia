@@ -31,7 +31,7 @@ window.addEventListener("load", () => {
             html: mensagemEmail
         }
 
-        await fetch("http://localhost:3000/send-email", {headers, body: JSON.stringify(body), method: "POST"})
+        await fetch("https://shoutmon-email.onrender.com/send-email", {headers, body: JSON.stringify(body), method: "POST"})
     })
 
    
