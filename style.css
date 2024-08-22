@@ -1,0 +1,18 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    background-color: #b8b5b5;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 15px;
+}
+
+
