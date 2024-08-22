@@ -15,4 +15,12 @@ h1{
     margin-top: 15px;
 }
 
+body{
+    background-color: black;
+}
 
+@media (max-width:600px){
+    .container{
+        width: 100%;
+    }
+}
