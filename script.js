@@ -55,3 +55,20 @@ function montarMensagemEmail(responseQuestions) {
 
 }
 
+
+
+function showModal() {
+    // Exibe o modal
+    var modal = document.getElementById("myModal");
+    modal.style.display = "block";
+
+    // Fecha o modal após 5 segundos
+    setTimeout(function() {
+        closeModal();
+    }, 5000);
+}
+
+function closeModal() {
+    var modal = document.getElementById("myModal");
+    modal.style.display = "none";
+}
