@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Saude social</title>
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <h1>Formulario saude Mental</h1>
+    <div class="container">
+    <!-- <form class="form" action="https://api.staticforms.xyz/submit" method="post">
+        <label>Você tem o hábito de fumar?</label><br>
+        <input type="radio" name="name" value="Sim" >Sim<br>
+        <input type="radio" name="name" value="Não">Não<br>
+        
+        <label>Você tem o hábito de consumir bebidas alcolicas?</label><br>
+        <input type="radio" name="name" value="Sempre">Sempre<br>
+        <input type="radio" name="questao" value="Frequentemente">Frequentemente<br>
+        <input type="radio" name="questao" value="Raramente">Raramente<br>
+        <input type="radio" name="questao" value="Nunca">Nunca<br>
+
+        <label>Com que frequencia você pratica esporte fisicos?</label><br>
+        <input type="radio" name="questao-3">teste 1<br>
+        <input type="radio" name="questao-3">teste 2<br>
+        <input type="radio" name="questao-3">teste 3<br>
+        <input type="radio" name="questao-3">teste 4<br>
+        <label>Você costumar domir bem durante a noite?</label><br>
+        <input type="radio" name="questao-4">teste 1<br>
+        <input type="radio" name="questao-4">teste 2<br>
+        <input type="radio" name="questao-4">teste 3<br>
+        <input type="radio" name="questao-4">teste 4<br>
+        <label>Com que frequencia você costuma senir dores no corpo?</label><br>
+        <input type="radio" name="questao-5">teste 1<br>
+        <input type="radio" name="questao-5">teste 2<br>
+        <input type="radio" name="questao-5">teste 3<br>
+        <input type="radio" name="questao-5">teste 4<br>
+        <label>Você costuma sentir fadiga ou falta de energia</label><br>
+        <input type="radio" name="questao-6">teste 1<br>
+        <input type="radio" name="questao-6">teste 2<br>
+        <input type="radio" name="questao-6">teste 3<br>
+        <input type="radio" name="questao-6">teste 4<br>
+        <label>Com que frequencia você costuma</label><br>
+        <input type="radio" name="questao-7">teste 1<br>
+        <input type="radio" name="questao-7">teste 2<br>
+        <input type="radio" name="questao-7">teste 3<br>
+        <input type="radio" name="questao-7">teste 4<br>
+        <button class="envia" type="submit">Enviar</button>
+    
+        <input type="hidden" name="accessKey" value="25f57363-225e-4b21-9109-766128045647">
+    </form> -->
+
+    <form class="form" id="form">
+        <label><span class="escuro">1)</span>  O que é essencial para uma  <br><span class="qbr-linha"></span>boa saúde social?</label><br>
+        <input class="opcao" type="radio" name="question_1" value="Amizade" ><span class="texto-option">Amizade</span><br>
+        <input class="opcao" type="radio" name="question_1" value="Solidão"><span class="texto-option">Solidão</span><br>
+        <input class="opcao" type="radio" name="question_1" value="Inimizade"><span class="texto-option">Inimizade</span><br>
+        <input class="opcao" type="radio" name="question_1" value="Indiferença"><span class="texto-option">Indiferença</span><br>
+        <div class="linha"></div>
+
+        <label><span class="escuro">2)</span>  Qual é o maior inimigo da  <br><span class="qbr-linha-4"></span>saúde social?</label><br>
+        <input class="opcao" type="radio" name="question_2" value="Isolamento"><span class="texto-option">Isolamento</span><br>
+        <input class="opcao" type="radio" name="question_2" value="Empatia"><span class="texto-option">Empatia</span><br>
+        <input class="opcao" type="radio" name="question_2" value="Respeito"><span class="texto-option">Respeito</span><br>
+        <input class="opcao" type="radio" name="question_2" value="Solariedade"><span class="texto-option">Solariedade</span><br>
+        <div class="linha"></div>
+
+        <label><span class="escuro">3)</span>  O que fortalece os laços  <br><span class="qbr-linha-10"></span>sociais? </label><br>
+        <input class="opcao" type="radio" name="question_3" value="Confiança"><span class="texto-option">Confiança</span><br>
+        <input class="opcao" type="radio" name="question_3" value="Desprezo"><span class="texto-option">Desprezo</span><br>
+        <input class="opcao" type="radio" name="question_3" value="Egoísmo"><span class="texto-option">Egoísmo</span><br>
+        <input class="opcao" type="radio" name="question_3" value="Manipulação"><span class="texto-option">Manipulação</span><br>
+        <div class="linha"></div>
+
+        <label><span class="escuro">4)</span> O que pode prejudicar uma <br><span class="qbr-linha-4"> relação social? </label><br>
+        <input class="opcao" type="radio" name="question_4" value="Mentira"><span class="texto-option">Mentira</span><br>
+        <input class="opcao" type="radio" name="question_4" value="Lealdade"><span class="texto-option">Lealdade</span><br>
+        <input class="opcao" type="radio" name="question_4" value="Honestidade"><span class="texto-option">Honestidade</span><br>
+        <input class="opcao" type="radio" name="question_4" value="Cuidado"><span class="texto-option">Cuidado</span><br>
+        <div class="linha"></div>
+
+        <label><span class="escuro">5)</span> O que promove a saúde  <br><span class="qbr-linha-11"></span>mental e social?</label><br>
+        <input class="opcao" type="radio" name="question_5" value="Apoio"><span class="texto-option">Apoio</span><br>
+        <input class="opcao" type="radio" name="question_5" value="Traição"><span class="texto-option">Traição</span><br>
+        <input class="opcao" type="radio" name="question_5" value="Descaso"><span class="texto-option">Descaso</span><br>
+        <input class="opcao" type="radio" name="question_5" value="Desrespeito"><span class="texto-option">Desrespeito</span><br>
+        <div class="linha"></div>
+
+        <label><span class="escuro">6)</span>  Qual é a base das relações  <br><span class="qbr-linha-3">saudáveis?</label><br>
+        <input class="opcao" type="radio" name="question_6" value="Diálogo"><span class="texto-option">Diálogo</span><br>
+        <input class="opcao" type="radio" name="question_6" value="Ignorância"><span class="texto-option">Ignorância</span><br>
+        <input class="opcao" type="radio" name="question_6" value="Orgulho"><span class="texto-option">Orgulho</span><br>
+        <input class="opcao" type="radio" name="question_6" value="Silêncio"><span class="texto-option">Silêncio</span><br>
+        <div class="linha"></div>
+
+        <label><span class="escuro">7)</span> O que é fundamental para a  <br><span class="qbr-linha-4"></span>convivência social?</label><br>
+        <input class="opcao" type="radio" name="question_7" value="Empatia"><span class="texto-option">Empatia</span><br>
+        <input class="opcao" type="radio" name="question_7" value="Arrogância"><span class="texto-option">Arrogância</span><br>
+        <input class="opcao" type="radio" name="question_7" value="Inveja"><span class="texto-option">Inveja</span><br>
+        <input class="opcao" type="radio" name="question_7" value="Desconfiança"><span class="texto-option">Desconfiança</span><br>
+        <div class="linha"></div>
+
+        <label><span class="escuro">8)</span>  O que pode enfraquecer uma  <br><span class="qbr-linha-3">comunidade? </span></label><br>
+        <input class="opcao" type="radio" name="question_8" value="Preconceito"><span class="texto-option">Preconceito</span><br>
+        <input class="opcao" type="radio" name="question_8" value="Compaixão"><span class="texto-option">Compaixão</span><br>
+        <input class="opcao" type="radio" name="question_8" value="Inclusão"><span class="texto-option">Inclusão</span><br>
+        <input class="opcao" type="radio" name="question_8" value="Cooperação"><span class="texto-option">Cooperação</span><br>
+        <div class="linha"></div>
+
+        <label><span class="escuro">9)</span>  Qual é o impacto da  <br><span class="qbr-linha-9">comunicação aberta nas relações<br><span class="qbr-linha-3"> sociais?</label><br>
+        <input class="opcao" type="radio" name="question_9" value="Fortalecimento"><span class="texto-option">Fortalecimento</span><br>
+        <input class="opcao" type="radio" name="question_9" value="Ruptura"><span class="texto-option">Ruptura</span><br>
+        <input class="opcao" type="radio" name="question_9" value="Distância"><span class="texto-option">Distância</span><br>
+        <input class="opcao" type="radio" name="question_9" value="Incompreensão"><span class="texto-option">Incompreensão</span><br>
+        <div class="linha"></div>
+
+        <label><span class="escuro">10)</span>  O que é crucial para evitar  <br><span class="qbr-linha-4">conflitos sociais?</label><br>
+        <input class="opcao" type="radio" name="question_10" value="Respeito"><span class="texto-option">Respeito</span><br>
+        <input class="opcao" type="radio" name="question_10" value="Intolerância"><span class="texto-option">Intolerância</span><br>
+        <input class="opcao" type="radio" name="question_10" value="Prepotência"><span class="texto-option">Prepotência</span><br>
+        <input class="opcao" type="radio" name="question_10" value="Insensibilidade"><span class="texto-option">Insensibilidade</span><br>
+
+        <input class="BTN" type="submit" value="Participar" onclick="showModal()" />
+        <a href="social.html"><button class="BTN">Proximo formulario</button></a>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <p>OBRIGADO POR PARTICIPAR DA PESQUISA</p>
+            </div>
+        </div>
+    
+        <!-- <input type="hidden" name="accessKey" value="25f57363-225e-4b21-9109-766128045647"> -->
+       
+    </form>
+    
+</div>
+
+</body>
+</html>
